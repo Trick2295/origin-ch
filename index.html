@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <div class="form-container">
+        <h2>Student Details 📝</h2>
+        <form id="student-form">
+            <div>
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" placeholder="e.g., 1" required>
+            </div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g., Rom" required>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="e.g., Taguig" required>
+            </div>
+            <div>
+                <label for="program">Program:</label>
+                <input type="text" id="program" name="program" placeholder="e.g., 01P" required>
+            </div>
+            <button type="submit">Add Student Card</button>
+        </form>
+    </div>
+
+    <div id="student-cards-container">
+        <div class="card">
+            <h3></h3>
+            <p><strong>Pangalan:</strong></p>
+            <p><strong>Program:</strong></p>
+            <p><strong>Address:</strong></p>
+            <button id="delete-btn" data-id="">X</button>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

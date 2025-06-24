@@ -1,0 +1,72 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 2em;
+    background-color: #f4f7f6;
+    color: #333;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+}
+.form-container {
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 2em;
+}
+form {
+    display: grid;
+    gap: 1.2em;
+}
+h2 {
+    margin-top: 0;
+    color: #0056b3;
+}
+label {
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Important for padding and width */
+}
+button {
+    padding: 0.9em;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#student-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em; /* Space between cards */
+}
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px; /* Set a fixed width for each card */
+}
+.card h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+.card p {
+    margin: 0.5em 0;
+    color: #555;
+}
+.card p strong {
+    color: #333;
+}
